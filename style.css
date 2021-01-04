@@ -1,14 +1,19 @@
 *{
     font-family: cursive;
-    background-color: beige!important;
+    background-color: white!important;
+    font-size: 25px;
+    
 }
 
+.todoBorder h1{
+    color: darkorange;
+}
 .todoBorder{
     border-radius: 25px;
     border: 2px solid black ;
     display: block;
     text-align: center;
-    
+  
     margin:  auto;
     margin-top: 10ex;
     margin-bottom: 5ex ;
@@ -40,8 +45,11 @@ table{
     margin-left: auto;
   margin-right: auto;
   margin-top: 3%; 
-}
 
+}
+th{
+    color: darkorange;
+}
 td{
     text-align: left; 
 }

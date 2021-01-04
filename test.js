@@ -3,17 +3,14 @@ function Clears()
     document.getElementById("input").value = '';
 }
 
-function Button(table,){
-
-}
 
 let x = 0;
 
 function Adds()
 {
-    let input = document.getElementById("input");
+     
 
-       if(!input) 
+       if(document.getElementById("input").value == '') 
        {
         alert("Must contain a value");
        }
